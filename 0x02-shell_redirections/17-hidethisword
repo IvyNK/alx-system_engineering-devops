@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -R --exclude=GLOB bin /etc/passwd
+grep -i -v "bin" /etc/passwd
